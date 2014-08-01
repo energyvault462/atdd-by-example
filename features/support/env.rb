@@ -1,5 +1,9 @@
 require 'watir-webdriver'
+<<<<<<< HEAD
 browser = Watir::Browser.new :chrome, :switches => ["--ignore-certificate-errors"]
+=======
+browser = Watir::Browser.new :chrome
+>>>>>>> ch2
 at_exit do
   #browser.close
 end
